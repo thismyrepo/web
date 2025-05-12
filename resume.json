@@ -1,0 +1,43 @@
+{
+  "about": "Hello! I’m Abbas, a Big Data, AI/ML student passionate about upcoming AI technologies, algorithms, and all things open source.",
+  "skills": [
+    "Languages: Python, Java, C++",
+    "Web: HTML, CSS, React, Node.js, Flask",
+    "Databases: MySQL, MongoDB, postgreSQL",
+    "Tools: Git, Docker, AWS, Tensorflow/Keras, Pandas, Matplotlib"
+  ],
+  "experience": [
+    {
+      "role": "Junior Support Engineer",
+      "company": "VisonTech",
+      "period": "Apr 2019 – Aug 2022",
+      "details": [
+        "Provided customer support and on-site services",
+        "Optimized installation, reducing time by 30%",
+        "Collaborated in an Agile team of 5"
+      ]
+    },
+    {
+      "role": "I.T Dept. Support Internship",
+      "company": "School",
+      "period": "Jun 2018 – Aug 2018",
+      "details": "Shadowed senior tech team and aided in daily school IT activities"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science",
+      "institution": "not now",
+      "period": "2022 – Present",
+      "details": [
+        "Major: Big Data and AI",
+        "Relevant coursework: Algorithms, OS, Databases, Machine Learning"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "i no put rn",
+    "github": "https://github.com/thismyrepo",
+    "linkedin": "i also no put rn"
+  }
+}
