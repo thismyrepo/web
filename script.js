@@ -56,8 +56,8 @@ const commands = {
     appendLine(`LinkedIn: <a href="${c.linkedin}" target="_blank">${c.linkedin}</a>`);
   },
   clear: () => {
-  [...output.querySelectorAll('p')].forEach(p => {
-    if (!p.classList.contains('persistent')) p.remove();
+    document.querySelectorAll('#output p').forEach(p => {
+      if (!p.classList.contains('persistent')) p.remove();
   });
 }
   
