@@ -1,2 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abbas | Resume Terminal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="terminal">
+    <div id="output">
+      <p class="line">Welcome to <span class="highlight">Abbas</span>’ interactive resume.</p>
+      <p class="line">Type <span class="highlight">help</span> to see available commands.</p>
+      <div id="cursor-line">
+        <span class="prompt">➜</span>
+        <input id="cmd-input" autofocus autocomplete="off" />
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
