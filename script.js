@@ -56,9 +56,13 @@ const commands = {
     appendLine(`LinkedIn: <a href="${c.linkedin}" target="_blank">${c.linkedin}</a>`);
   },
   clear: () => {
-    // remove all lines except the cursor line
-    [...output.querySelectorAll('p')].forEach(p => p.remove());
-  }
+  [...output.querySelectorAll('p')].forEach(p => {
+    if (!p.textContent.includes('Welcome to') && !p.textContent.includes('Type help')) {
+      p.remove();
+    }
+  });
+}
+  
 };
 
 // handle input
