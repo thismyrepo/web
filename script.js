@@ -57,9 +57,7 @@ const commands = {
   },
   clear: () => {
   [...output.querySelectorAll('p')].forEach(p => {
-    if (!p.textContent.includes('Welcome to') && !p.textContent.includes('Type help')) {
-      p.remove();
-    }
+    if (!p.classList.contains('persistent')) p.remove();
   });
 }
   
