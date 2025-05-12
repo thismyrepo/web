@@ -1,0 +1,51 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #000;
+  color: #0f0;
+  font-family: 'Courier New', monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#terminal {
+  width: 90%;
+  max-width: 800px;
+  height: 90%;
+  background: #111;
+  padding: 1rem;
+  overflow-y: auto;
+  border: 2px solid #0f0;
+  box-shadow: 0 0 10px #0f0;
+}
+
+#line, .line {
+  line-height: 1.4em;
+}
+
+.prompt {
+  margin-right: 0.5em;
+}
+
+#cmd-input {
+  background: transparent;
+  border: none;
+  color: #0f0;
+  font: inherit;
+  outline: none;
+  width: 90%;
+}
+
+.highlight {
+  color: #ff0;
+}
+
+.command {
+  color: #0ff;
+}
+
+.error {
+  color: #f00;
+}
