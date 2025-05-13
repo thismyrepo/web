@@ -11,6 +11,7 @@ body {
 }
 
 #terminal {
+  position: relative;
   width: 90%;
   max-width: 800px;
   height: 90%;
@@ -53,7 +54,7 @@ body {
 #pixel-cat {
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: -5px;
   width: 60px;
   height: auto;
   image-rendering: pixelated;
