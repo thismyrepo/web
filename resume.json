@@ -21,7 +21,9 @@
       "role": "I.T Dept. Support Internship",
       "company": "School",
       "period": "Jun 2018 – Aug 2018",
-      "details": "Shadowed senior tech team and aided in daily school IT activities"
+      "details": [
+        "Shadowed senior tech team and aided in daily school IT activities"
+      ]
     }
   ],
   "education": [
