@@ -31,13 +31,13 @@ function scrollToBottom() {
 const commands = {
   help: () => {
     appendLine('<span class="command">help</span> — show this help');
-    appendLine('<span class="command">about</span> — who you are');
-    appendLine('<span class="command">skills</span> — list your skills');
+    appendLine('<span class="command">about</span> — who i am');
+    appendLine('<span class="command">skills</span> — list my skills');
     appendLine('<span class="command">experience</span> — work history');
     appendLine('<span class="command">education</span> — academic background');
-    appendLine('<span class="command">contact</span> — how to reach you');
-    appendLine('<span class="command">clear</span> — clear screen but keep welcome');
-    appendLine('<span class="command">reset</span> — full wipe of all output');
+    appendLine('<span class="command">contact</span> — how to reach me');
+    appendLine('<span class="command">clear</span> — clear screen');
+    //appendLine('<span class="command">reset</span> — full wipe of all output');
   },
 
   about: () => appendLine(resume.about),
