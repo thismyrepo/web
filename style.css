@@ -52,13 +52,11 @@ body {
 
 #pixel-cat {
   position: absolute;
-  right: 20px;
-  top: 50%;
-  tranform: translateY(-50%);
+  right: 10px;
+  top: 10px;
   width: 60px;
   height: auto;
   image-rendering: pixelated;
   z-index: 10;
   pointer-events: none;
-  background: none;
 }
