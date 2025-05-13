@@ -49,3 +49,13 @@ body {
 .error {
   color: #f00;
 }
+
+#pixel-cat {
+  position: absolute;
+  right: 20px;
+  top: 40%;
+  width: 60px;
+  image-rendering: pixelated;
+  z-index: 5;
+  pointer-events: none;
+}
